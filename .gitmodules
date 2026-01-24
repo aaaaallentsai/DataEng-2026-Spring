@@ -1,3 +1,3 @@
 [submodule "l02-api-relay-aaaaallentsai"]
 	path = l02-api-relay-aaaaallentsai
-	url = git@github.com:bu-ds551-s26/l02-api-relay-aaaaallentsai.git
+	url = https://github.com/bu-ds551-s26/l02-api-relay-aaaaallentsai.git
