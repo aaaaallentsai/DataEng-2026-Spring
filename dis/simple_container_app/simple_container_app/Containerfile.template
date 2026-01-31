@@ -1,0 +1,53 @@
+# ============================================================================
+# CONTAINERFILE TEMPLATE - Fill in with your students!
+# ============================================================================
+# TODO: Students will help you complete this during the lab
+
+# ----------------------------------------------------------------------------
+# STEP 1: Choose a Base Image
+# ----------------------------------------------------------------------------
+# Q: What base image should we use? We need Python!
+# Hint: Look for an official Python image on Docker Hub
+FROM _________________
+
+# ----------------------------------------------------------------------------
+# STEP 2: Set Working Directory
+# ----------------------------------------------------------------------------
+# Q: Where should we put our app files inside the container?
+# Hint: Common practice is /app
+WORKDIR _________________
+
+# ----------------------------------------------------------------------------
+# STEP 3: Copy Requirements File
+# ----------------------------------------------------------------------------
+# Q: What file contains our Python dependencies?
+# Hint: It's called requirements.txt
+COPY _________________  /app/requirements.txt
+
+# ----------------------------------------------------------------------------
+# STEP 4: Install Dependencies
+# ----------------------------------------------------------------------------
+# Q: How do we install Python packages?
+# Hint: Use pip install
+RUN pip install --no-cache-dir -r _________________
+
+# ----------------------------------------------------------------------------
+# STEP 5: Copy Application Code
+# ----------------------------------------------------------------------------
+# Q: What's our main Python file called?
+# Hint: It's app.py
+COPY _________________  /app/
+
+# ----------------------------------------------------------------------------
+# STEP 6: Expose Port
+# ----------------------------------------------------------------------------
+# Q: What port does Flask use by default?
+# Hint: Check app.py - what port is in the code?
+EXPOSE _________________
+
+# ----------------------------------------------------------------------------
+# STEP 7: Run the Application
+# ----------------------------------------------------------------------------
+# Q: What command starts our Flask app?
+# Hint: python app.py
+CMD ["python", "_________________"]
