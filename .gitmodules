@@ -4,3 +4,6 @@
 [submodule "hw/dataops-assignment-aaaaallentsai"]
 	path = hw/dataops-assignment-aaaaallentsai
 	url = git@github.com:bu-cds-ds551-s26/dataops-assignment-aaaaallentsai.git
+[submodule "hw/a2-health-events-etl-pipeline"]
+	path = hw/a2-health-events-etl-pipeline
+	url = git@github.com:bu-cds-ds551-s26/a2-health-events-etl-pipeline-on-openshift-11-tsai-dai-cheng-dinh.git
