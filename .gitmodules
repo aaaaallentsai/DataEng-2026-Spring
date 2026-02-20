@@ -1,6 +1,6 @@
 [submodule "l02-api-relay-aaaaallentsai"]
 	path = lec/l02-api-relay-aaaaallentsai
-	url = https://github.com/bu-ds551-s26/l02-api-relay-aaaaallentsai.git
+	url = git@github.com:bu-cds-ds551-s26/l02-api-relay-aaaaallentsai.git
 [submodule "hw/dataops-assignment-aaaaallentsai"]
 	path = hw/dataops-assignment-aaaaallentsai
-	url = https://github.com/bu-cds-ds551-s26/dataops-assignment-aaaaallentsai.git
+	url = git@github.com:bu-cds-ds551-s26/dataops-assignment-aaaaallentsai.git
