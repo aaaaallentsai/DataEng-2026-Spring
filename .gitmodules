@@ -10,3 +10,6 @@
 [submodule "hw/epidemic-engine-11-tsai-dai-cheng-dinh"]
 	path = hw/epidemic-engine-11-tsai-dai-cheng-dinh
 	url = git@github.com:bu-cds-ds551-s26/epidemic-engine-11-tsai-dai-cheng-dinh.git
+[submodule "hw/assignment-3-kafka-eda-11-tsai-dai-cheng-dinh"]
+	path = hw/assignment-3-kafka-eda-11-tsai-dai-cheng-dinh
+	url = git@github.com:bu-cds-ds551-s26/assignment-3-kafka-eda-11-tsai-dai-cheng-dinh.git
